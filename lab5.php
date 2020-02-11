@@ -153,11 +153,11 @@
 
     <div class="container-fluid mt-3">
     
-    <?php if ($pref1 != 'none') {echo $aralia;}?>
+    <?php if ($pref1 != 'none') {echo $aralia;}
+    
+    if ($pref2 != 'none') {echo $arborwhatever;}
 
-    <?php if ($pref2 != 'none') {echo $arborwhatever;} ?>
-
-    <?php if ($pref3 != 'none') {echo $ashKetchum;} ?>
+    if ($pref3 != 'none') {echo $ashKetchum;} ?>
 </div>
 
 <!-- jQuery -->
